@@ -36,8 +36,6 @@ video {
   box-sizing: border-box;
   display: block;
   width: 100%;
-  padding-left: 2px;
-  padding-right: 2px;
   margin: 0 auto;
 }
 
@@ -47,18 +45,18 @@ video {
 }
 
 .hero-img {
-  height: 540px;
+  height: 600px;
   width: 100%;
 }
 
 .hero-tittle {
   position: absolute;
-  left: 60px;
+  left: 70px;
   top: 220px;
   margin: 0 auto;
   width: 250px;
   text-align: center;
-  color: aliceblue;
+  color: black;
   background-color: transparent;
   font-size: 40px;
   font-weight: 600;
@@ -66,18 +64,14 @@ video {
 
 .menu {
   position: absolute;
-  top: 15px;
-  left: 25px;
+  top: 0px;
+  left: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 30px;
   display: flex;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border-bottom: 1px solid whitesmoke;
-}
-
-.menu-ikon-lupa,
-.menu-ikon,
-.menu-ikon-basket,
-.menu-ikon-tel {
-  fill: aliceblue;
 }
 
 .menu-ikon-lupa {
@@ -86,16 +80,15 @@ video {
 }
 
 .menu-ikon-img {
-  margin-left: 50px;
-  margin-bottom: 10px;
+  margin-left: 55px;
 }
 
 .menu-ikon-tel {
-  margin-left: 50px;
+  margin-left: 55px;
   margin-top: 3px;
 }
 
 .menu-ikon-basket {
-  margin-left: 20px;
+  margin-left: 25px;
   margin-top: 3px;
 }
